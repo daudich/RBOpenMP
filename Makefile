@@ -1,6 +1,6 @@
 FLAGS = -std=c99 -Wall -g -lm -omp -pthread -pedantic -o2
 CC = gcc
-FILES = server.c
+FILES = orbs.c
 
 all: objects
 	$(CC) $(FLAGS) orbs.o -o orbs
