@@ -1,24 +1,26 @@
 # OpenMP RedBlue Simulation
 ***
 
-Parallel version requires a compiler with OpenMP support.
+*Parallel version requires a compiler with OpenMP support.*
 
-What is the RedBlue simulation?
+##What is the RedBlue simulation?
 
-A bunch of red and blue cells inhabit a board. Each turn, the red cells
-move one cell to the right if they can, and then the blue cells move 
-down one cell. If either are at the end of the board they roll over to the
-other side.
+A host of red and blue cells inhabit a board. Every turn, the red cells move one cell to the
+right if that cell is not occupied. On the next turn, the blue cells move a cell down, if they
+can. Once they reach the edge of the board they wrap around to the beginning of the board. This
+continues until one block(user-defined) contains a certain density of red cells or until all the
+iterations(user-defined) are exhausted.
 
-Cells of the same colour move simultaneously, so for example if a row looked like:
+Furethermore, cells of the same colour move simultaneously, so for example if a row looked like:
+<Space is S>
 
-RRRR_
+RR__R
 
-Then after they move it will look like:
+Then after one move will appear:
 
-RRR_R
+R_R_R
 
-Only the last red cell has moved.
+Only the middle cell has moved.
 
-Timing relies on OpenMP. If compiled without OpenMP, time will always display -1 second.
+*Timing relies on OpenMP timing libraries. If compiled without OpenMP, time will always display -1 second.*
 
