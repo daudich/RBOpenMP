@@ -1,24 +1,24 @@
 /*
  * ASSIGNMENT NAME	: Assignment 3
- * 
+ *
  * AUTHOR		: Dhiren Audich
- * 
- * STUDENT ID		: 0694717
- * 
+ *
+ * STUDENT ID		: ***
+ *
  * PROGRAM NAME		: orbs.c
- * 
+ *
  * DATE CREATED		: 5 - Nov - 2012
- * 
+ *
  * DATE MODIFIED	: 7 - Nov - 2012
- * 
+ *
  * DESCRIPTION		: This program simulates a red/blue game of life.
  * 			  the program takes the required parameters which
  * 			  define the board and the exit conditions. It then
  * 			  distributes the work amongst different processors using OpenMP
  * 			  and then displays the output to a file.
- * 
+ *
  */
- 
+
 //defining global variables and header files
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,9 +32,9 @@
 //blank - 0; red - 1; blue - 2
 
 typedef struct{
-	
+
 	int pN, bN, tN, cN, mN, sN, iN;
-	
+
 } DATA;
 
 int ** board = NULL, fullIterations = 1, jobs = 0;
