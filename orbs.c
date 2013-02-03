@@ -1,7 +1,7 @@
 /*
  * ASSIGNMENT NAME	: Assignment 3
  * 
- * AUTHOR			: Dhiren Audich
+ * AUTHOR		: Dhiren Audich
  * 
  * STUDENT ID		: 0694717
  * 
@@ -12,10 +12,10 @@
  * DATE MODIFIED	: 7 - Nov - 2012
  * 
  * DESCRIPTION		: This program simulates a red/blue game of life.
- * 						The program takes the required parameters which
- * 						define the board and the exit conditions. It then
- * 						distributes the work amongst different processors using OpenMP
- * 						and then displays the output to a file.
+ * 			  the program takes the required parameters which
+ * 			  define the board and the exit conditions. It then
+ * 			  distributes the work amongst different processors using OpenMP
+ * 			  and then displays the output to a file.
  * 
  */
  

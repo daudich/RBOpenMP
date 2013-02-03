@@ -22,6 +22,8 @@ R_R_R
 
 Only the middle cell has moved.
 
+*The board is initialised randomly.*
+
 ## How to Run
 
 * To build:
