@@ -25,7 +25,9 @@ Only the middle cell has moved.
 ## How to Run
 
 * To build:
-  * make
+`
+make
+`
 
 * To clean:
   * make clean
