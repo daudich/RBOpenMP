@@ -25,11 +25,9 @@ Only the middle cell has moved.
 ## How to Run
 
 * To build:
-`
-make
-`
+    make
 
 * To clean:
-  * make clean
+    make clean
 
 *Timing relies on OpenMP timing libraries. If compiled without OpenMP, time will always display -1 second.*
